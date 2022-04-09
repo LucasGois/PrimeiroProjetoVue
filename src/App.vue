@@ -13,7 +13,7 @@ import Footer from "./components/Footer.vue"
 export default {
   data() {
     return {
-      logo_src: '/img/logo.png',
+      logo_src:'/img/logo.png',
       app_name: 'Make Your Burger',
     }
   },
