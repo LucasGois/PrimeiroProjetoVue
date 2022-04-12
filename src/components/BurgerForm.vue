@@ -91,9 +91,14 @@ export default {
                 body: dataJson
             });
 
-            const res = await req.json()
+            const res = await req.json();
 
-            console.log(res)
+            console.log(res);
+
+            this.nome = "";
+            this.carne = "";
+            this.pao = "";
+            this.opcionais = "";
         }
     },
     mounted() {
