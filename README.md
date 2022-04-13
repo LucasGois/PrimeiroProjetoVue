@@ -1,4 +1,4 @@
-# primeiro_projeto_vue
+# Primeiro Projeto VUE.JS
 
 ## Project setup
 ```
