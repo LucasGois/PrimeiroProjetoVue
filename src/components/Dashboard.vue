@@ -30,7 +30,7 @@
                                 :value="item.tipo">{{ item.tipo }}
                         </option>
                     </select>
-                    <button class="delete-btn">Cancelar</button>
+                    <button class="delete-btn" @click="deleteBurger(burger.id)">Cancelar</button>
                 </div>
             </div>
         </div>
@@ -60,6 +60,17 @@ export default {
             const req = await fetch("http://localhost:3000/status");
 
             this.status = await req.json();
+        },
+        async deleteBurger(id) {
+            const req = await fetch(`http://localhost:3000/burgers/${id}`, {
+                method: "DELETE"
+            });
+
+            const res = await req.json();
+
+            console.log(res);
+
+            await this.getPedidos();
         }
     },
     mounted() {
