@@ -82,18 +82,10 @@
       "nome": "Lucas",
       "carne": "Alcatra",
       "pao": "3 Queijos",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "Lucas",
-      "carne": "Alcatra",
-      "pao": "3 Queijos",
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 2
     },
     {
@@ -103,7 +95,7 @@
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 4
     },
     {
@@ -113,7 +105,7 @@
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 6
     },
     {
@@ -123,7 +115,7 @@
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 7
     },
     {
@@ -133,7 +125,7 @@
       "opcionais": [
         "Bacon"
       ],
-      "status": "Solicitado",
+      "status": "Em produção",
       "id": 8
     },
     {
